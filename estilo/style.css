@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: passion;
+    src: url(../fonts/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: sriracha;
+    src: url(../fonts/Sriracha-Regular.ttf);
+}
+
+:root {
+    --fonte1: arial, verdana, 'sen-serif';
+    --fonte2: 'passion', cursive; 
+    --fonte3: 'sriracha', cursive;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-size: 7em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+header p {
+    font-family: var(--fonte1);
+    font-size: 0.8em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--fonte3);
+    font-size: 2em;
+    line-height: 2em;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+section.imagem01 {
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 20px
+    
+}
+
+p#caixa {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 400px;
+    margin: 1px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+section.imagem02 {
+    background:transparent url(../imagens/background002.jpg) center center / cover no-repeat fixed;
+    padding: 100px 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
