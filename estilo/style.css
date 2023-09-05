@@ -67,8 +67,8 @@ section.imagem01 {
     background-position: right center;;
     background-size: cover;
     background-attachment: fixed;
-    padding: 100px 20px
-    
+    padding: 100px 20px;
+    box-shadow: inset 1px 1px 13px 0px rgba(0, 0, 0, 0.555);
 }
 
 p#caixa {
@@ -83,6 +83,7 @@ p#caixa {
 section.imagem02 {
     background:transparent url(../imagens/background002.jpg) center center / cover no-repeat fixed;
     padding: 100px 20px;
+    box-shadow: inset 1px 1px 13px 0px rgba(0, 0, 0, 0.555);
 }
 
 footer {
